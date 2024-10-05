@@ -8,7 +8,7 @@ catkin build
 ```
 
 ## Known issues
-### For the issue in log4xx shaerd_mutex try this
+### For the issue in log4xx shared_mutex try this
 Their proposed solution is to modify /usr/include/log4cxx/boost-std-configuration.h, from this:
 
 #define STD_SHARED_MUTEX_FOUND 1
